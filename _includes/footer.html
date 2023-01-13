@@ -1,0 +1,12 @@
+<footer class="footer">
+  <div>
+    <p id="kontakt">
+      {% assign now = "now" | date: "%Y" %}
+      {% if now == "2023" %}
+      @ {{now}} Marion Müller
+      {% else %}
+      @ 2023 - {{now}} Marion Müller
+      {% endif %}
+    </p>
+  </div>
+</footer>

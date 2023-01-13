@@ -1,0 +1,10 @@
+/* Long Text
+############################################################################ */
+
+.longtext {
+  & > *:not(img, h2) {
+    max-width: var(--max-width-content);
+    font-size: var(--s);
+    line-height: var(--lh-default);
+  }
+}

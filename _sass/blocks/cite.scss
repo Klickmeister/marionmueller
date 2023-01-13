@@ -1,0 +1,42 @@
+/* Cite
+############################################################################ */
+
+.cite {
+  background-color: var(--beige-medium);
+
+  figure {
+    width: 100%;
+    max-width: var(--large-content);
+    padding: var(--fluid-space-l);
+    font-family: var(--font-family-serif);
+    font-size: 1.5em;
+    font-weight: var(--fw-light);
+
+    blockquote {
+      &::before {
+        display: inline-block;
+        margin-right: calc(var(--xxs) * -0.3);
+        margin-left: -1ch;
+        color: var(--lighten);
+        content: "«";
+      }
+
+      & > * {
+        display: inline;
+        color: var(--beige-lighter);
+        line-height: var(--lh-default);
+      }
+
+      &::after {
+        display: inline-block;
+        margin-left: calc(var(--xxs) * -0.3);
+        color: var(--lighten);
+        content: "»";
+      }
+    }
+
+    figcaption {
+      font-size: var(--s);
+    }
+  }
+}

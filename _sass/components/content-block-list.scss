@@ -1,0 +1,50 @@
+// Content Block List
+// ------------------------------------------------------------------------- //
+
+.content-block-list {
+  display: grid;
+  padding: 0;
+  padding: var(--fluid-space-m);
+  margin: 0;
+  background-color: var(--beige-light);
+  opacity: 0.95;
+
+  &__content {
+    figcaption {
+      padding-right: var(--fluid-space-l);
+    }
+
+    &,
+    & * {
+      font-size: var(--s);
+      line-height: var(--lh-default);
+    }
+  }
+
+  img {
+    display: none;
+  }
+
+  @media only screen and (max-width: calc($vp-large - 1)) {
+    & + & {
+      padding-top: var(--fluid-space-l);
+    }
+  }
+
+  @media only screen and (min-width: $vp-large) {
+    gap: var(--fluid-space-s);
+    grid-template-columns: repeat(auto-fill, minmax(30ch, 1fr));
+
+    h3 {
+      color: var(--darken-strong);
+    }
+  }
+}
+
+.content-block-headline {
+  display: inline-block;
+  padding: var(--fluid-space-s) var(--fluid-space-m);
+  margin: 0;
+  background-color: var(--teal);
+  color: var(--lightest);
+}

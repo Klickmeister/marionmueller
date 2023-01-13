@@ -1,0 +1,42 @@
+---
+
+layout: default
+title: Marion Müller
+tagline: Rechtsbegleitung, Mediation & Supervision
+class: grid
+
+---
+
+
+{% capture content %}{% include single-markdown.html file="intro.md" %}{% endcapture %}
+{{ content | markdownify }}
+
+
+<div class="section is-large has-no-padding image-decoration" style="background-image: url('./images/IMG_2760.jpg');">
+    {% capture content %}{% include products.html %}{% endcapture %}
+    {{ content | markdownify }}
+</div>
+
+<section class="vita has-no-padding">
+    {% capture content %}{% include single-markdown.html file="vita.md" %}{% endcapture %}
+    {{ content | markdownify }}
+</section>
+
+<section class="faq">
+    <div class="herotext">
+        <h2>Fragen?</h2>
+        <p>Sie haben Fragen zu meinen Leistungen oder dem Prozess? Kein Problem! Hier ein paar Antworten auf die häufigsten Fragen die mir häufig gestellt werden. Falls Ihre Frage nicht dabei ist: schreiben Sie mir oder rufen Sie mich an.</p>
+    </div>
+    {% capture content %}{% include faqs.html %}{% endcapture %}
+    {{ content }}
+</section>
+
+<section class="cite">
+    {% capture content %}{% include single-markdown.html file="cite-ignore.md" %}{% endcapture %}
+    {{ content | markdownify }}
+</section>
+
+<section class="is-dark longtext">
+    {% capture content %}{% include single-markdown.html file="contact.md" %}{% endcapture %}
+    {{ content | markdownify }}
+</section>

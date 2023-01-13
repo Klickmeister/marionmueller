@@ -1,0 +1,132 @@
+/* Grid
+############################################################################ */
+.grid {
+  display: grid;
+  gap: var(--fluid-space-m);
+
+  @media only screen and (min-width: $vp-medium) {
+    grid-template-columns: repeat(auto-fit, minmax(var(--max-col-width), 1fr));
+
+    &[data-col-width="s"] {
+      grid-template-columns: repeat(auto-fit, minmax(var(--max-col-width-small), 1fr));
+    }
+
+    &[data-col-width="xs"] {
+      grid-template-columns: repeat(auto-fit, minmax(var(--max-col-width-xsmall), 1fr));
+    }
+
+    &[data-col-gap="xs"] {
+      gap: var(--fluid-space-xs);
+    }
+
+    &[data-col-gap="s"] {
+      gap: var(--fluid-space-s);
+    }
+  }
+}
+
+/* Small Grid
+############################################################################ */
+.grid-small {
+  display: grid;
+  gap: var(--fluid-space-s);
+
+  @media only screen and (min-width: $vp-small) {
+    grid-template-columns: repeat(auto-fit, minmax(var(--max-col-width-small), 1fr));
+  }
+}
+
+/* Large Grid
+############################################################################ */
+.grid-large {
+  display: grid;
+  gap: var(--fluid-space-m);
+
+  @media only screen and (min-width: $vp-medium) {
+    grid-template-columns: repeat(auto-fit, minmax(var(--max-col-width-large), 1fr));
+  }
+}
+
+/* Vertical Stack
+############################################################################ */
+.vertical-stack {
+  & > *:not(details) {
+    padding-top: var(--xxl);
+  }
+}
+
+/* Limited Box
+############################################################################ */
+
+.limited-box {
+  max-width: var(--max-width-content);
+}
+
+/* Section
+############################################################################ */
+
+section,
+.section {
+  position: relative;
+  padding-top: var(--fluid-space-l);
+  padding-bottom: var(--fluid-space-l);
+
+  & > * + * {
+    margin-top: var(--xxl);
+  }
+
+  &.is-large {
+    display: flex;
+    justify-content: center;
+
+    @media only screen and (min-width: $vp-large) {
+      & > * {
+        max-width: var(--large-content);
+      }
+    }
+  }
+
+  &.has-no-padding {
+    padding: 0;
+  }
+
+  &.image-decoration {
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-size: contain;
+  }
+}
+
+/* Columns
+############################################################################ */
+
+[data-columns] {
+  display: flex;
+  flex-direction: column;
+  gap: var(--fluid-space-m);
+
+  @media only screen and (min-width: $vp-medium) {
+    display: grid;
+    gap: var(--fluid-space-s);
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Box Widths & heights
+############################################################################ */
+
+[data-box-width="s"] {
+  max-width: var(--max-width-content-s);
+}
+
+[data-box-width="m"] {
+  max-width: var(--max-width-content-m);
+}
+
+[data-box-width="l"] {
+  max-width: var(--max-width-content-l);
+}
+
+[data-box-width="xl"] {
+  max-width: var(--max-width-content-xl);
+}

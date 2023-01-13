@@ -1,0 +1,42 @@
+baseurl: "/home"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: "images/small"
+    values:
+      image: true
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-image-size
+
+collections:
+  faqs:
+    output: false
+  products:
+    output: true
+  content-snippets:
+    output: true
+    sort_by: order
+#   feed:
+#     output: true
+#   checkItOut:
+#     output: false
+    
+## plugins:
+#  - jekyll-paginate
+#  - jekyll-sitemap
+
+  

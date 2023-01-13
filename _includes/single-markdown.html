@@ -1,0 +1,14 @@
+{% assign filename = include.file %}
+{% assign snippets = site.content-snippets %}
+
+{% for item in snippets %}
+    {% if item.path contains filename %}
+    {% assign this = item %}
+
+{{this}}
+
+    {% endif %}
+{% endfor %}
+  
+
+

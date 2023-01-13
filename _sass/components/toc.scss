@@ -1,0 +1,23 @@
+// TOC
+// ------------------------------------------------------------------------- //
+
+.toc {
+  padding: 0;
+  list-style: none;
+
+  & > * {
+    display: block;
+    margin-bottom: var(--xxs);
+
+    &::before {
+      @extend .icon;
+
+      content: "double_arrow";
+    }
+
+    a:hover {
+      padding-right: var(--xxs);
+      padding-left: var(--xxs);
+    }
+  }
+}

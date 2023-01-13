@@ -1,0 +1,25 @@
+// Product Card
+// ------------------------------------------------------------------------- //
+.product-card {
+  display: block;
+  padding-top: var(--fluid-space-m);
+  padding-bottom: var(--fluid-space-m);
+
+  &__content {
+    @media only screen and (max-width: calc($vp-medium -1)) {
+      figcaption {
+        padding-right: var(--fluid-space-l);
+      }
+    }
+
+    &,
+    & * {
+      font-size: var(--s);
+      line-height: var(--lh-default);
+    }
+  }
+
+  img {
+    display: none;
+  }
+}
