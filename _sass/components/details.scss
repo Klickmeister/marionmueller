@@ -4,8 +4,13 @@ details {
   margin-left: var(--l);
   transition: padding var(--tr-slow), margin var(--tr-slow), opacity var(--tr-medium);
 
+  p {
+    margin-left: -1ch;
+  }
+
   summary {
-    margin-left: calc(var(--l) * -1);
+    position: relative;
+    margin-left: calc(var(--l) * -1.2);
     list-style: none;
 
     & > h3 {
@@ -19,21 +24,28 @@ details {
     &::-webkit-details-marker { display: none; }
 
     &::before {
+      position: absolute;
+      top: 0;
       display: inline-block;
+      margin: 0;
       color: var(--interaction-color);
-
-      @extend .icon;
-
       content: "chevron_right";
       font-size: var(--l);
       font-weight: var(--fw-bold);
       transition: transform ease-in-out 200ms;
+
+      @extend .icon;
+    }
+
+    h3 {
+      max-width: 90%;
+      padding-left: 2ch;
+      hyphens: auto;
     }
   }
 
   &[open] {
     padding-bottom: var(--l);
-    border-bottom: solid var(--border-width-l) var(--dark);
     margin-top: var(--fluid-space-l);
     margin-bottom: var(--fluid-space-l);
     opacity: 1 !important;
