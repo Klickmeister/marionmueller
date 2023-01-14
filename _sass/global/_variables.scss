@@ -42,8 +42,8 @@ https://utopia.fyi/type/calculator/
 ---------------------------------------------------------------------------- */
   --fw-light: 200;
   --fw-normal: 300;
-  --fw-medium: 500;
-  --fw-bold: 700;
+  --fw-medium: 400;
+  --fw-bold: 500;
 
   /* Line Heights
 ---------------------------------------------------------------------------- */
@@ -71,7 +71,7 @@ https://utopia.fyi/type/calculator/
   --beige-light: #{"hsla(31, 37%, 84%, 1)"};
   --beige-lighter: #{"hsla(31, 37%, 90%, 1)"};
   --beige-red: #{"hsla(15, 31%, 70%, 1)"};
-  --teal: #{"hsla(180, 67%, 39%, 1)"};
+  --teal: #{"hsla(180, 67%, 35%, 1)"}; // --teal: #{"hsla(180, 67%, 39%, 1)"};
   --teal-dark: #{"hsla(177, 24%, 20%, 1)"};
 
   /* Functional Colors
@@ -81,7 +81,7 @@ https://utopia.fyi/type/calculator/
   --text-color: var(--darker);
   --headline-color: var(--dark);
   --headline-color-light: var(--darker);
-  --border-color: var(--dark);
+  --border-color: var(--darken);
   --seperator-color: var(--dark);
   --background-color: var(--beige-lighter);
 

@@ -4,10 +4,6 @@ details {
   margin-left: var(--l);
   transition: padding var(--tr-slow), margin var(--tr-slow), opacity var(--tr-medium);
 
-  p {
-    margin-left: -1ch;
-  }
-
   summary {
     position: relative;
     margin-left: calc(var(--l) * -1.2);
@@ -39,13 +35,14 @@ details {
 
     h3 {
       max-width: 90%;
-      padding-left: 2ch;
+      padding-left: 2.5ch;
       hyphens: auto;
     }
   }
 
   &[open] {
     padding-bottom: var(--l);
+    border-bottom: solid var(--border-width-l) var(--border-color);
     margin-top: var(--fluid-space-l);
     margin-bottom: var(--fluid-space-l);
     opacity: 1 !important;
