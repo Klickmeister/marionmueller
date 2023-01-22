@@ -1,9 +1,7 @@
 ---
 title: Vita
 layout: vita
-image: ./images/marion-treppe-sw.png
+image: ./images/web/treppe_2.webp
 ---
 
-Von 1990 bis 1994 habe ich Jura an der Universität zu Köln studiert, während meines Referendariats war ich von 1995 bis 1998 dem Landgerichtsbezirk Köln zugewiesen. Von 1998 bis 2002 war ich in Immobilienunternehmen tätig, im Jahr 2002 erhielt ich die Zulassung zur Rechtsanwältin und bis 2023 war ich ausschließlich im Rahmen der interprofessionellen Zusammenarbeit in Steuerberater- und Rechtsanwaltskanzleien tätig. 
-
-Mittels diverser Fortbildungen im juristischen Kontext konzentrierte sich meine rechtsberatende Leistung auf den Rechtsgebieten des Arbeits-, Immobilien- und Versicherungsrecht. 2017 habe ich im INeKO Institut an der Universität zu Köln die Ausbildung zur Mediatorin abgeschlossen. Eine weitere Kompetenzerweiterung außerhalb der rein juristisch geprägten Weiterbildungen stellt meine aktuelle Ausbildung zur Supervisorin dar, die ich im März 2023 im INeKo Institut abschließen werde.
+Ich habe von 1990-1994 Jura an der Universität zu Köln studiert und von 1995-1998 mein Referendariat beim Landgerichtsbezirk Köln absolviert. 2002 habe ich die Zulassung zur Rechtsanwältin erhalten, meine langjährigen Schwerpunkte stellen das Arbeits- und Sozialrecht, das Immobilien- und allgemeine Zivilrecht dar. 2016/2017 habe ich im INeKO Institut an der Universität zu Köln die Ausbildung zur Mediatorin abgeschlossen. Seit April 2022 bin ich in der Ausbildung zur Supervisorin im INeKO Institut an der Universität zu Köln, der Abschluss ist für März 2023 geplant.
