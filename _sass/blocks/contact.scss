@@ -1,0 +1,33 @@
+/* Contact
+############################################################################ */
+
+.contact {
+  background-color: var(--lightest);
+
+  &-body {
+    h2 {
+      color: var(--teal);
+    }
+
+    padding: var(--fluid-space-s);
+    padding-bottom: var(--fluid-space-m);
+
+    dl {
+      font-size: var(--xs);
+    }
+  }
+
+  &-visual {
+    margin: 0;
+
+    img {
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  @media only screen and (min-width: $vp-large) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

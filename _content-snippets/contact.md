@@ -1,13 +1,39 @@
 ---
 title: Impressum & Kontakt
-layout: simple
+layout: contact
+image: ./images/web/haende-schuetteln.webp
+alttext: "Skulptur von Leuten die sich die Hände schütteln"
 ---
 
-Marion Müller LL.M.<br>
-Eikamper Straße 4<br>
-+49 175 5717931<br>
-51069 Köln<br>
-<br>
-<span class="rev" data-js-send="ed<!--testcase-1-->.nl<!--testcase-2-->eok.gnutielgebsthcer<!--testcase-3-->@re<!--testcase-4-->lleum.noiram">ed<!--testcase-1-->.nl<!--testcase-2-->eok.gnutielgebsthcer<!--testcase-3-->@re<!--testcase-4-->lleum.noiram<span>
+Angaben gem. § 5 TMG
+: Marion Müller LL.M.
+: Rechtsanwältin
+
+Anschrift
+: Eikamper Straße 4
+: 51069 Köln
+
+Kontakt
+: Telefon: (+49) 175 / 571 7931
+: E-Mail: <span class="rev" data-js-send="ed<!--testcase-1-->.nl<!--testcase-2-->eok.gnutielgebsthcer<!--testcase-3-->@re<!--testcase-4-->lleum.noiram">ed<!--testcase-1-->.nl<!--testcase-2-->eok-gnutielgebsthcer<!--testcase-3-->@re<!--testcase-4-->lleum.noiram<span>
+: Website: rechtsbegleitung-koeln.de
+
+Zuständige Kammer
+: Als Rechtsanwältin bin ich Mitglied der Rechtsanwaltskammer Köln
+: Riehler Straße 30
+: 50668 Köln
+: www.rak-koeln.de
+
+Gesetzliche Berufsbezeichnung 
+: Die gesetzliche Berufsbezeichnung lautet Rechtsanwalt. Die Berufsbezeichnung wurde in der Bundesrepublik Deutschland verliehen. Die Rechtsanwälte unterliegen folgenden berufsrechtlichen Regelungen: Der Bundesrechtsanwaltsordnung (BRAO), der Berufsordnung für Rechtsanwälte (BORA), der Fachanwaltsordnung (FAO), dem Gesetz über die Vergütung der Rechtsanwältinnen und Rechtsanwälte (Rechtsanwaltsvergütungsgesetz – RVG), den Berufsregeln der Rechtsanwälte der Europäischen Union (CCBE) sowie dem Gesetz über die Tätigkeit europäischer Rechtsanwälte in Deutschland vom 9. März 2000 (EuRAG). Diese und weitere berufsrechtlichen Regelungen finden Sie auf der Internetseite der Bundesrechtsanwaltskammer (http://www.brak.de/) unter „Berufsrecht“.
+
+Umsatzsteuer-ID gem. § 27a UStG:
+: DE XXXXXXXX
+
+Inhaltlich Verantwortliche gem. § 55 RStV: 
+: Marion Müller (Kontakt s.o.)
 
 
+// ggf. Berufshaftpflichtversicherung <br>
+// ggf. Register<br>
+// ggf. Rechtsform (GbR?)<br>

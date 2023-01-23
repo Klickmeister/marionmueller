@@ -142,3 +142,20 @@ hr + * {
   direction: rtl;
   unicode-bidi: bidi-override;
 }
+
+/* Definition List
+############################################################################ */
+
+dt {
+  margin-bottom: var(--quad);
+  font-weight: var(--fw-bold);
+  opacity: 0.6;
+
+  &::after {
+    content: ":";
+  }
+}
+
+dd + dt {
+  margin-top: var(--fluid-space-s);
+}
