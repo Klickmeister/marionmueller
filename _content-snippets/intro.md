@@ -3,4 +3,4 @@ title: Intro
 layout: herotext
 ---
 
-Willkommen auf meiner Web-Visitenkarte. Welche berufliche Adresse darf Ihnen der Mensch mit dem Namen Marion Müller anbieten? Sie können die Leistungen und Kompetenzen einer Rechtsanwältin, Mediatorin und Supervisorin wählen. Gerne biete ich Ihnen konstruktiv und zielführend meine Leistungen an. Wir werden im Rahmen meiner Begleitung aufgefordert sein, für Ihr konkretes Anliegen eine eigenverantwortliche Lösung zu finden.
+Konfliktsituationen begleiten uns ein Leben lang. Manchmal finden die Betroffenen weder einen einfachen noch einen friedlichen Lösungsweg. Es kann daher wichtig sein, von außen auf den Konflikt zu schauen um die richtigen Fragen und Antworten zu finden. Als Rechtsanwältin, Mediatorin und/oder Supervisorin stehe ich an Ihrer Seite und unterstütze Sie dabei, für Ihr konkretes Anliegen eine eigenverantwortliche Lösung zu finden. Lassen Sie uns gerne darüber reden. 
