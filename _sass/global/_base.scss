@@ -30,6 +30,12 @@ blockquote {
   color: var(--text-color);
 }
 
+p,
+blockquote,
+dd {
+  hyphens: auto;
+}
+
 h1,
 h2,
 h3,
