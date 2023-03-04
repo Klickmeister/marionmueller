@@ -2,6 +2,11 @@
 title: Impressum & Kontakt
 layout: contact
 image: ./images/web/haende-schuetteln.webp
+imageset:
+  default: ./images/web/haende-schuetteln.webp
+  small: ./images/web/haende-schuetteln_2.webp
+  medium: ./images/web/haende-schuetteln_3.webp
+  large: ./images/web/haende-schuetteln_4.webp
 alttext: "Skulptur von Leuten die sich die Hände schütteln"
 ---
 

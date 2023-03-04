@@ -25,8 +25,8 @@
     display: none;
   }
 
-  @media only screen and (max-width: calc($vp-large - 1)) {
-    & + & {
+  @media only screen and (max-width: calc($vp-large - 1px)) {
+    &+& {
       padding-top: var(--fluid-space-l);
     }
   }

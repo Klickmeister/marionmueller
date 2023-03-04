@@ -1,6 +1,7 @@
-
 <div class="contact-visual">
-  <img src="{{page.image}}" alt="{{page.alttext}}">
+  <img
+    srcset="{{page.imageset.small}} 400w, {{page.imageset.medium}} 800w, {{page.imageset.large}} 1200w, {{page.imageset.default}} 2730w"
+    src="{{page.image}}" alt="{{page.alttext}}">
 </div>
 <div class="contact-body">
   <h2>{{page.title}}</h2>
