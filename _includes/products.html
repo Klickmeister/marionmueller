@@ -4,18 +4,12 @@
     <h2 class="content-block-headline">Was kann ich für Sie tun?</h2>
     <ul class="content-block-list">
         {% for product in products %}
-            <li class="product-card">
-                <h3>{{ product.title }}</h3>
-                <figure class="product-card__content">
-                    <img loading="lazy" src="/products/images/{{ product.img }}" alt="{{ product.title }}">
-                    <figcaption>
-                        {{ product.teasertext | markdownify }}
-                        {% if product.linktext %}
-                            <a href="{{ product.url | relative_url }}" class="button">{{ product.linktext }}</a>
-                        {% endif %}
-                    </figcaption>
-                </figure>
-            </li>
+        <li class="product-card">
+            <h3>{{ product.title }}</h3>
+            <span class="product-card__content">
+                {{ product.teasertext | markdownify }}
+            </span>
+        </li>
         {% endfor %}
-        </ul>
+    </ul>
 </div>
