@@ -6,9 +6,11 @@
         {% for product in products %}
         <li class="product-card">
             <h3>{{ product.title }}</h3>
-            <span class="product-card__content">
-                {{ product.teasertext | markdownify }}
-            </span>
+            <figure class="product-card__content">
+                <figcaption>
+                    {{ product.teasertext | markdownify }}
+                </figcaption>
+            </figure>
         </li>
         {% endfor %}
     </ul>
