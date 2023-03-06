@@ -12,7 +12,10 @@ class: grid
 {{ content | markdownify }}
 
 
-<div class="section is-large has-no-padding image-decoration" style="background-image: url('./images/web/steine_2.webp');">
+<div class="section is-large has-no-padding image-decoration">
+    <img srcset="./images/web/steine-2.webp 400w, ./images/web/steine-3.webp 800w, ./images/web/steine-4.webp 1200w, ./images/web/steine.webp 2878w"
+        src="./images/web/steine.webp" alt="Bild von Steinen"
+        style="position: absolute; z-index: -1; object-fit: contain; left:0; margin-top: var(--xxl); ">
     {% capture content %}{% include products.html %}{% endcapture %}
     {{ content | markdownify }}
 </div>
@@ -25,7 +28,9 @@ class: grid
 <section class="faq">
     <div class="herotext">
         <h2>Fragen?</h2>
-        <p>Sie möchten mehr über meine Leistungen oder den Beratungsprozess erfahren? Hier ein paar Antworten auf Fragen, die mir häufig gestellt werden. Gerne stehe ich Ihnen persönlich für ein Gespräch zur Verfügung. Schreiben Sie mir oder rufen Sie mich an.</p>
+        <p>Sie möchten mehr über meine Leistungen oder den Beratungsprozess erfahren? Hier ein paar Antworten auf
+            Fragen, die mir häufig gestellt werden. Gerne stehe ich Ihnen persönlich für ein Gespräch zur Verfügung.
+            Schreiben Sie mir oder rufen Sie mich an.</p>
     </div>
     {% capture content %}{% include faqs.html %}{% endcapture %}
     {{ content }}

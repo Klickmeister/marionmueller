@@ -1,9 +1,9 @@
-
 <div class="vita-body">
   <h2>{{page.title}}</h2>
   {{content}}
 </div>
 <div class="vita-visual">
-  <img src="{{page.image}}" alt="Bild von {{page.title}}">
+  <img
+    srcset="{{page.imageset.small}} 400w, {{page.imageset.medium}} 800w, {{page.imageset.large}} 1200w, {{page.imageset.default}} 2730w"
+    sizes="(min-width: 1100px) 50vw, 100vw" src="{{page.image}}" alt="Bild von {{page.title}}">
 </div>
-
