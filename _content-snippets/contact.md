@@ -1,7 +1,6 @@
 ---
 title: Impressum & Kontakt
 layout: contact
-image: ./images/web/haende-schuetteln.webp
 imageset:
   default: ./images/web/haende-schuetteln.webp
   small: ./images/web/haende-schuetteln_2.webp
