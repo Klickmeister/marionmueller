@@ -3,9 +3,9 @@ title: Vita
 layout: vita
 imageset:
   default: ./images/web/treppe.webp
-  small: ./images/web/treppe_2.webp
-  medium: ./images/web/treppe_3.webp
-  large: ./images/web/treppe_4.webp
+  small: ./images/web/treppe_small.webp
+  medium: ./images/web/treppe_medium.webp
+  large: ./images/web/treppe_large.webp
 ---
 
 1990-1994
