@@ -45,8 +45,10 @@
     height: 100%;
 
     &>img {
-      height: 100%;
-      object-fit: cover
+      height: 0;
+      min-height: 100%;
+      object-fit: cover;
+      object-position: top;
     }
   }
 
