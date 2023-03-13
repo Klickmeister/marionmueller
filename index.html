@@ -41,7 +41,7 @@ class: grid
     {{ content | markdownify }}
 </section>
 
-<section class="is-dark contact has-no-padding">
+<section class="is-dark contact has-no-padding" id="contact">
     {% capture content %}{% include single-markdown.html file="contact.md" %}{% endcapture %}
     {{ content | markdownify }}
 </section>
