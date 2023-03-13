@@ -31,7 +31,8 @@ Zuständige Kammer
 Gesetzliche Berufsbezeichnung 
 : Die gesetzliche Berufsbezeichnung lautet Rechtsanwalt. Die Berufsbezeichnung wurde in der Bundesrepublik Deutschland verliehen. Die Rechtsanwälte unterliegen folgenden berufsrechtlichen Regelungen: Der Bundesrechtsanwaltsordnung (BRAO), der Berufsordnung für Rechtsanwälte (BORA), der Fachanwaltsordnung (FAO), dem Gesetz über die Vergütung der Rechtsanwältinnen und Rechtsanwälte (Rechtsanwaltsvergütungsgesetz – RVG), den Berufsregeln der Rechtsanwälte der Europäischen Union (CCBE) sowie dem Gesetz über die Tätigkeit europäischer Rechtsanwälte in Deutschland vom 9. März 2000 (EuRAG). Diese und weitere berufsrechtlichen Regelungen finden Sie auf der Internetseite der Bundesrechtsanwaltskammer (http://www.brak.de/) unter „Berufsrecht“.
 
-Umsatzsteuerbefreiung gemäß §  4 UStG
+Umsatzsteuer
+: Umsatzsteuerbefreiung gemäß §  4 UStG
 
 Inhaltlich Verantwortliche gem. § 55 RStV
 : Marion Müller (Kontakt s.o.)

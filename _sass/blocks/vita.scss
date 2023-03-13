@@ -35,13 +35,25 @@
       }
     }
 
-    dd + dt {
+    dd+dt {
       margin-top: var(--fluid-space-xs);
     }
   }
 
   &-visual {
     margin: 0;
+    height: 100%;
+
+    &>img {
+      min-height: 100%;
+      object-fit: cover;
+      object-position: top;
+
+      @media only screen and (min-width: $vp-large) {
+        height: 0;
+      }
+    }
+
   }
 
   @media only screen and (min-width: $vp-large) {
