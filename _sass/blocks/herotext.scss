@@ -12,16 +12,17 @@
     line-height: var(--lh-tight);
   }
 
-  & > * {
+  &>* {
     max-width: var(--max-width-content);
     line-height: var(--lh-default);
 
-    &:not(h1,h2,h3,h4) {
+    &:not(h1, h2, h3, h4) {
       font-weight: var(--fw-medium);
     }
   }
 
   @media only screen and (min-width: $vp-medium) {
+
     h1,
     h2 {
       font-size: var(--xxl);
@@ -29,12 +30,12 @@
       line-height: var(--lh-tight);
     }
 
-    & > * {
+    &>* {
       max-width: var(--max-width-content);
       font-size: var(--m);
       line-height: var(--lh-default);
 
-      &:not(h1,h2,h3,h4) {
+      &:not(h1, h2, h3, h4) {
         font-weight: var(--fw-medium);
       }
     }

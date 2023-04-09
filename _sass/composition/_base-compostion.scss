@@ -50,7 +50,7 @@
 /* Vertical Stack
 ############################################################################ */
 .vertical-stack {
-  & > *:not(details) {
+  &>*:not(details) {
     padding-top: var(--xxl);
   }
 }
@@ -65,13 +65,12 @@
 /* Section
 ############################################################################ */
 
-section,
-.section {
+section {
   position: relative;
   padding-top: var(--fluid-space-l);
   padding-bottom: var(--fluid-space-l);
 
-  & > * + * {
+  &>*+* {
     margin-top: var(--xxl);
   }
 
@@ -80,7 +79,7 @@ section,
     justify-content: center;
 
     @media only screen and (min-width: $vp-large) {
-      & > * {
+      &>* {
         max-width: var(--large-content);
       }
     }

@@ -21,22 +21,22 @@
         content: "«";
       }
 
-      & > * {
+      &>* {
         display: inline;
         color: var(--beige-lighter);
         line-height: var(--lh-default);
       }
 
-      &::after {
-        display: inline-block;
-        margin-left: calc(var(--xxs) * -0.3);
+      &>p>span {
+        margin-left: calc(var(--xxs) * 0.3);
         color: var(--lighten);
-        content: "»";
+        white-space: nowrap;
       }
     }
 
     figcaption {
       font-size: var(--s);
+      color: var(--darkest);
     }
   }
 }
